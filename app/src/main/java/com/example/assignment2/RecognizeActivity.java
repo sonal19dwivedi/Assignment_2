@@ -118,7 +118,7 @@ public class RecognizeActivity extends AppCompatActivity implements
                 }
                 if (span != 0) {
                     float timeSpan = (span/60);
-                    String toast = "Your last activity "+ lastActivity+ " was for "+ timeSpan + " (Minutes.Seconds)";
+                    String toast = "Your last activity lasted for "+ timeSpan + " (Minutes.Seconds)";
                     Toast.makeText(this, toast, Toast.LENGTH_SHORT).show();
                 }
             }
